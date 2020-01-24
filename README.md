@@ -114,22 +114,25 @@ Top left corner: Port host info:
 note: If your system does not meet these requirements then follow the installation instructions.
 
 ## Installation instructions
-
+### Extra fast script for debian
+````
+cd;apt-get install nmap traceroute iproute iproute2 perl git wget -y;mkdir ~/git;cd ~/git;https://github.com/muddydev/nmap.git;cd ~/git/nmap
+````
 ### Install packages
   
 Ubuntu/Debian/Raspbian  
 ````
-$ sudo apt-get install nmap traceroute iproute perl git wget  
+sudo apt-get install nmap traceroute iproute iproute2 perl git wget -y
 ````
    
 Centos/RHEL  
 ````
-$ yum install nmap traceroute iproute perl git wget   
+yum install nmap traceroute iproute iproute2 perl git wget -y  
 ````
   
 Fedora  
 ````
-$ dnf install nmap traceroute iproute perl git wget 
+dnf install nmap traceroute iproute iproute2 perl git wget -y  
 ````
    
 ### Test packages  
@@ -153,18 +156,18 @@ $ ip add
   
 Clone the repo to your locale host:
 ````
-$ mkdir ~/git
-$ cd ~/git
-$ git clone https://github.com/tedsluis/nmap.git
-$ cd ~/git/nmap
+mkdir ~/git
+cd ~/git
+git clone https://github.com/tedsluis/nmap.git
+cd ~/git/nmap
 ````
    
 ### Install GoJS
   
 To install the GoJS framework:  
 ````
-$ cd ~/git/nmap
-$ wget https://gojs.net/latest/release/go.js
+cd ~/git/nmap
+wget https://cdnjs.cloudflare.com/ajax/libs/gojs/1.8.37/go.js
 ````
 Note: read the license info!
     
