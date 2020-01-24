@@ -1,5 +1,5 @@
 /*
- * GoJS v1.8.37 JavaScript Library for HTML Diagrams
+ * GoJS v 1.8.37 JavaScript Library for HTML Diagrams
  * Northwoods Software, https://www.nwoods.com/
  * GoJS and Northwoods Software are registered trademarks of Northwoods Software Corporation.
  * Copyright (C) 1998-2019 by Northwoods Software Corporation.  All Rights Reserved.
