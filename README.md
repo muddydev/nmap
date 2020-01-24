@@ -114,9 +114,7 @@ Top left corner: Port host info:
 note: If your system does not meet these requirements then follow the installation instructions.
 
 ## Installation instructions
-### Extra fast script for debian
-````
-cd;apt-get install nmap traceroute iproute iproute2 perl git wget -y;mkdir ~/git;cd ~/git;https://github.com/muddydev/nmap.git;cd ~/git/nmap
+
 ````
 ### Install packages
   
@@ -161,16 +159,7 @@ cd ~/git
 git clone https://github.com/tedsluis/nmap.git
 cd ~/git/nmap
 ````
-   
-### Install GoJS
-  
-To install the GoJS framework:  
-````
-cd ~/git/nmap
-wget https://cdnjs.cloudflare.com/ajax/libs/gojs/1.8.37/go.js
-````
-Note: read the license info!
-    
+
 ## Run nmapscan.pl
   
 To run it (specify our own subnets):  
